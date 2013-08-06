@@ -1,0 +1,9 @@
+C:\Users\Breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\bin\x64\Release\resources.pri
+C:\Users\Breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\bin\x64\Release\AppxManifest.xml
+C:\Users\Breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\bin\x64\Release\AppTicTacToePaper.build.appxrecipe
+C:\Users\Breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\bld\x64\Release\priconfig.xml
+C:\Users\Breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\bld\x64\Release\layout.resfiles
+C:\Users\Breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\bld\x64\Release\resources.resfiles
+C:\Users\Breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\bld\x64\Release\pri.resfiles
+C:\Users\Breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\bld\x64\Release\LanguageQualifiers.txt
+C:\Users\Breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\bld\x64\Release\ProjectArchitectures.txt

@@ -1,0 +1,85 @@
+﻿/*
+ * Description: Style css game Tic Toe Paper
+ * Version: 1.2
+ * Last update: april 23, 2013
+ * Author: Breno Polanski - breno.polanski@gmail.com - www.brenopolanski.com
+ */
+
+/* ==========================================================================
+   Game layout
+   ========================================================================== */
+
+* { margin: 0; padding: 0; }
+
+img { border: none; }
+
+#imgSnapped {
+    z-index: -1;
+    position: fixed;
+    margin-top: -50px;
+}
+
+body { 
+  background: url(../images/paper.png) no-repeat fixed; 
+  background-size: cover;
+}
+
+/* Table game Tic Toe
+   ========================================================================== */
+
+table {
+	border-collapse: collapse;
+	background: url(../images/table.png);
+	margin: 150px auto;
+}
+
+td {
+	height: 130px;
+	width: 130px;
+}
+
+/* HUD
+   ========================================================================== */
+
+.smile {
+	position: fixed;
+	top: 105px;
+	padding: 4px 15px 4px 50px;
+	left: 0;
+}
+
+.smile-win {
+    background: url(../images/smile.png) no-repeat;
+    width: 150px;
+    height: 182px;
+    overflow: hidden;
+}
+
+    .smile-win:hover {
+        background-position: left bottom;
+    }
+
+.btn {
+	position: fixed;
+	top: 200px;
+	padding: 4px 50px;
+	right: 0;
+}
+
+.btn-reset {
+    background: url(../images/btn_reset.png) no-repeat;
+    width: 205px;
+    height: 107px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+    .btn-reset:hover {
+        background-position: left bottom;
+    }
+
+/* Images player1 and player2
+   ========================================================================== */
+
+td.player_1 { background: url(../images/players.png) 15px 20px no-repeat; }
+td.player_2 { background: url(../images/players.png) -100px 15px no-repeat; }

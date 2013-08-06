@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>POLANSKI-DELL</Machine>
+    <WindowsUser>Breno</WindowsUser>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>E9E3687DEA9CF3494548DC00A866F88261EDBB30E5345924F6D67F69E0DFD94E</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>8228BrenoPolanski.TictactoePaper_1.0.0.2_neutral__k2ma5phfhkcvw</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>8228BrenoPolanski.TictactoePaper_k2ma5phfhkcvw!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>8228BrenoPolanski.TictactoePaper</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=D1AF1347-E0D7-4CB2-9C97-660500095CD2</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.2</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-24T18:54:02.853</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\css\game.css">
+      <PackagePath>css\game.css</PackagePath>
+      <Modified>2013-04-24T00:42:11.232</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2013-04-24T02:12:52.569</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\pages\about\about.css">
+      <PackagePath>pages\about\about.css</PackagePath>
+      <Modified>2013-04-24T00:48:14.371</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\pages\privacy\privacy.css">
+      <PackagePath>pages\privacy\privacy.css</PackagePath>
+      <Modified>2013-04-24T01:59:06.563</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2013-04-24T00:46:54.635</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\pages\about\about.html">
+      <PackagePath>pages\about\about.html</PackagePath>
+      <Modified>2013-04-24T02:01:54.499</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\pages\privacy\privacy.html">
+      <PackagePath>pages\privacy\privacy.html</PackagePath>
+      <Modified>2013-04-21T22:25:30.327</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\images\btn_reset.png">
+      <PackagePath>images\btn_reset.png</PackagePath>
+      <Modified>2013-04-23T22:29:42.124</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-17T19:50:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\images\paper.png">
+      <PackagePath>images\paper.png</PackagePath>
+      <Modified>2013-04-17T17:11:41.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\images\players.png">
+      <PackagePath>images\players.png</PackagePath>
+      <Modified>2013-04-17T18:33:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\images\player_1.png">
+      <PackagePath>images\player_1.png</PackagePath>
+      <Modified>2013-04-18T03:43:05.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\images\player_2.png">
+      <PackagePath>images\player_2.png</PackagePath>
+      <Modified>2013-04-18T03:43:11.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-21T22:29:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\images\smile_ops.png">
+      <PackagePath>images\smile_ops.png</PackagePath>
+      <Modified>2013-04-21T20:35:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\images\smile.png">
+      <PackagePath>images\smile.png</PackagePath>
+      <Modified>2013-04-23T17:09:07.629</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\images\snapped_logo.png">
+      <PackagePath>images\snapped_logo.png</PackagePath>
+      <Modified>2013-04-21T21:44:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-21T21:50:41.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-21T22:28:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\images\table.png">
+      <PackagePath>images\table.png</PackagePath>
+      <Modified>2013-04-18T03:09:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2013-04-23T03:07:07.212</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\js\game.js">
+      <PackagePath>js\game.js</PackagePath>
+      <Modified>2013-04-24T00:42:56.573</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\js\jquery.min.js">
+      <PackagePath>js\jquery.min.js</PackagePath>
+      <Modified>2013-04-23T03:55:00.979</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\pages\about\about.js">
+      <PackagePath>pages\about\about.js</PackagePath>
+      <Modified>2012-10-05T03:57:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\pages\privacy\privacy.js">
+      <PackagePath>pages\privacy\privacy.js</PackagePath>
+      <Modified>2012-10-05T04:05:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-04-24T18:54:01.351</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.9200.20602</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.9200.20602</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+c:\users\breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\bin\Debug\resources.pri
+c:\users\breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\bin\Debug\AppxManifest.xml
+c:\users\breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\bin\Debug\AppTicTacToePaper.build.appxrecipe
+c:\users\breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\bld\Debug\priconfig.xml.intermediate
+c:\users\breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\bld\Debug\layout.resfiles.intermediate
+c:\users\breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\bld\Debug\resources.resfiles.intermediate
+c:\users\breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\bld\Debug\pri.resfiles.intermediate
+c:\users\breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\bld\Debug\priconfig.xml
+c:\users\breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\bld\Debug\layout.resfiles
+c:\users\breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\bld\Debug\resources.resfiles
+c:\users\breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\bld\Debug\pri.resfiles
+c:\users\breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\bld\Debug\LanguageQualifiers.txt
+c:\users\breno\documents\visual studio 2012\Projects\AppTicTacToePaper\AppTicTacToePaper\bld\Debug\ProjectArchitectures.txt

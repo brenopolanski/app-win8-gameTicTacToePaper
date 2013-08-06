@@ -1,0 +1,71 @@
+﻿<!doctype html>
+<html>
+	<head>
+
+		<!-- metas -->
+        <meta charset="utf-8">
+		<title>Classic game tic tac toe paper</title>
+
+        <!-- WinJS references -->
+        <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" />
+        <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+        <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+        <!-- AppTicTacToePaper references -->
+        <link href="/css/default.css" rel="stylesheet" />
+        <script src="/js/default.js"></script>
+           
+		<!-- Style Game -->
+        <link href="/css/game.css" rel="stylesheet" />
+
+	</head>
+	
+	<body>
+
+        <!-- Image Snapped -->
+        <div id="snappedMode" style="visibility: hidden;">
+            <img id="imgSnapped" src="images/snapped_logo.png">
+        </div>
+
+		<!-- Begin Game
+		================================================== -->
+
+		<table id="tableGame">
+			<!-- row #1 -->
+			<tr>
+				<td data-number="1">&nbsp;</td>
+				<td data-number="2">&nbsp;</td>
+				<td data-number="3">&nbsp;</td>
+			</tr>
+			<!-- row #2 -->
+			<tr>
+				<td data-number="6">&nbsp;</td>
+				<td data-number="7">&nbsp;</td>
+				<td data-number="8">&nbsp;</td>
+			</tr>
+			<!-- row #3 -->
+			<tr>
+				<td data-number="11">&nbsp;</td>
+				<td data-number="12">&nbsp;</td>
+				<td data-number="13">&nbsp;</td>
+			</tr>
+		</table>
+
+		<!-- HUD
+		================================================== -->
+		<div id="smile" class="smile">
+            <div id="smile-win" class="smile-win"></div>
+			<br>
+			<span class="player-win"></span>
+		</div>
+
+		<div id="btn" class="btn">
+		    <a href="#" onclick="javascript:resetGame();"><div id="btn-reset" class="btn-reset"></div></a>
+		</div>
+
+		<!-- javascript
+		================================================== -->
+		<script src="/js/jquery.min.js"></script>
+		<script src="/js/game.js"></script>
+	</body>
+</html>

@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='C:\ProgramData\Windows App Certification Kit\results.xsl'?>
+<REPORT OVERALL_RESULT="PASS" VERSION="2.2" LATEST_VERSION="TRUE" UPDATE_DOWNLOAD_URL="" TOOLSET_ARCHITECTURE="X64" SecureBoot="FALSE" APP_TYPE="WindowsStore" PUBLISHER_DISPLAY_NAME="Breno Polanski" OSVERSION="6.2.9200.0" OS="Microsoft Windows 8 Pro" PER_USER_APPLICATION="" PARTIAL_RUN="FALSE" LCID="1046" VALIDATION_TYPE="CommandLine" ReportGenerationTime="23/04/2013 01:12:57" ID="61d319fd430f06a0e28141f9d856b0c6">
+  <REQUIREMENTS>
+    <REQUIREMENT NUMBER="1" TITLE="Teste de instalação limpa e reversível" RATIONALE="Uma instalação limpa e reversível permite aos usuários gerenciar (implantar e remover) com êxito os aplicativos em seu sistema." />
+    <REQUIREMENT NUMBER="2" TITLE="Instale nas pastas corretas de teste" RATIONALE="O Windows fornece os locais específicos no sistema de arquivos para armazenar componentes de programas e software, dados de aplicativos compartilhados e dados específicos do aplicativo para um usuário." />
+    <REQUIREMENT NUMBER="3" TITLE="Teste de arquivo assinado digitalmente" RATIONALE="Uma assinatura digital de Authenticode permite aos usuários ter certeza de que o software é autêntico. Também permite a detecção de um arquivo que tenha sido violado, como, por exemplo, infectado por um vírus." />
+    <REQUIREMENT NUMBER="4" TITLE="Suporte para teste do Windows x64" RATIONALE="Para manter a compatibilidade com as versões de 64 bits do Windows, é necessário que os aplicativos suportem aplicativos baseados no Windows de 64 bits ou, no mínimo, de 32 bits para executar diretamente o de 64 bits." />
+    <REQUIREMENT NUMBER="5" TITLE="Teste de verificação de versão do OS" RATIONALE="Os aplicativos não devem realizar verificações de versão para igualdade (== 5.1). Se precisar de um recurso específico, verifique se este está disponível. Se precisar do Windows XP, verifique Windows XP ou mais recentes (&gt;= 5.1); dessa maneira, seu código de detecção continuará a funcionar em versões posteriores do Windows. Os instaladores de drivers e os módulos de desinstalação nunca devem verificar a versão do SO." />
+    <REQUIREMENT NUMBER="6" TITLE="Teste de controle da conta do usuário (UAC)" RATIONALE="A maioria dos aplicativos não requer privilégios do administrador em tempo de execução e deve executar tão bem quanto um usuário padrão. Os aplicativos do Windows devem possuir um manifesto(incorporado ou externo) para definir seu nível de execução, que informa ao SO os privilégios necessários para executar o aplicativo." />
+    <REQUIREMENT NUMBER="7" TITLE="Siga as mensagens do gerenciador de reinicialização do sistema" RATIONALE="Em um encerramento crítico, os aplicativos que retornam de FALSE para WM_QUERYENDSESSION serão enviados WM_ENDSESSION e encerrados, enquanto aqueles que ficaram por um tempo sem resposta WM_QUERYENDSESSION serão encerrados." />
+    <REQUIREMENT NUMBER="8" TITLE="Teste de modo seguro" RATIONALE="Por padrão, a maioria dos drivers e serviços que não vêm pré-instalados com o Windows não é iniciada no Modo de Segurança. Eles devem continuar desabilitados a menos que sejam necessários para operações básicas do sistema ou para recuperação e diagnóstico." />
+    <REQUIREMENT NUMBER="9" TITLE="Teste de sessão multiusuário" RATIONALE="Os usuários devem poder executar sessões simultâneas sem que ocorram conflitos ou interrupções.  Os aplicativos devem garantir que, ao executar em várias sessões, localmente e remotamente, a funcionalidade normal do aplicativo não seja afetada. As configurações do aplicativo e os arquivos de dados não devem persistir entre os usuários. As preferências e a privacidade do usuário devem ser isoladas da sessão do usuário." />
+    <REQUIREMENT NUMBER="10" TITLE="Teste de falhas e travamentos" RATIONALE="Falhas do aplicativo, como panes e travamentos, representam a interrupção mais frequente para usuários e os deixam frustrados. A eliminação de tais falhas aumenta a estabilidade e a confiabilidade do aplicativo e, de maneira geral, oferece uma experiência otimizada com o aplicativo.">
+      <TEST INDEX="47" NAME="Testes de início do aplicativo" DESCRIPTION="Testes de início do aplicativo." EXECUTIONTIME="00h:00m:25s.15ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="21" NAME="Panes e travamentos" DESCRIPTION="Não travam ou sofrem panes durante o processo de testes." EXECUTIONTIME="00h:00m:05s.06ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="11" TITLE="Teste de compatibilidade e resiliência" RATIONALE="Quando o Windows detecta que um aplicativo operou de maneira incompatível, aplica-se uma correção de compatibilidade que faz com que o aplicativo funcione corretamente, garantindo uma experiência positiva ao usuário. Os aplicativos não devem depender desse comportamento, já que este somente é fornecido a fim de permitir que os aplicativos herdados funcionem corretamente no Windows." />
+    <REQUIREMENT NUMBER="12" TITLE="Teste de conformidade do manifesto do aplicativo" RATIONALE="No manifesto de pacote, estavam faltando um ou mais dos atributos solicitados.">
+      <TEST INDEX="31" NAME="Manifesto do aplicativo" DESCRIPTION="O manifesto do aplicativo deve incluir entradas válidas para todos os campos solicitados." EXECUTIONTIME="00h:00m:03s.01ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="13" TITLE="Teste de práticas recomendadas de segurança do Windows" RATIONALE="Um aplicativo não deve alterar as configurações de segurança padrão do Windows." />
+    <REQUIREMENT NUMBER="14" TITLE="Teste de recursos de segurança do Windows" RATIONALE="Os aplicativos devem optar pelos recursos de segurança do Windows.">
+      <TEST INDEX="33" NAME="Analisador do binário" DESCRIPTION="Análise dos recursos de segurança habilitados nos binários" EXECUTIONTIME="00h:00m:03s.63ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="62" NAME="Assinatura de Código Privado" DESCRIPTION="O aplicativo não deve armazenar arquivos de chave com assinaturas de código privado." EXECUTIONTIME="00h:00m:01s.51ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="15" TITLE="Teste de API compatível" RATIONALE="Os aplicativos devem consultar somente as APIs permitidas pelo SDK do Windows para Aplicativos da Loja do Windows.">
+      <TEST INDEX="38" NAME="APIs compatíveis" DESCRIPTION="O Aplicativo da Loja do Windows deve usar somente APIs de plataforma compatíveis." EXECUTIONTIME="00h:00m:03s.69ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="17" TITLE="Teste de desempenho" RATIONALE="O aplicativo deve ter uma inicialização rápida e com capacidade de resposta e uma experiência de suspensão, ao mesmo tempo que consome uma quantidade razoável de recursos do sistema (CPU, E/S de arquivo, memória, etc.) a fim de permitir uma rápida comutação e multitarefas entre os aplicativos anteriormente não abertos.">
+      <TEST INDEX="50" NAME="Geração de código de bytes" DESCRIPTION="A geração do código de bytes deve poder ser concluída com sucesso em pacotes que contêm um aplicativo HTML5 da Loja do Windows." EXECUTIONTIME="00h:00m:02s.16ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="60" NAME="Referências de Associação Otimizadas" DESCRIPTION="Ao usar associações, WinJS.Binding.optimizeBindingReferences deve ser definido como verdadeiro para otimizar o uso da memória." EXECUTIONTIME="00h:00m:01s.85ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="43" NAME="Inicialização de desempenho" DESCRIPTION="O aplicativo deve possuir um tempo de inicialização com capacidade de resposta associado a uma CPU razoável, bem como uso de E/S de arquivo e de memória" EXECUTIONTIME="00h:01m:41s.41ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="44" NAME="Suspensão de desempenho" DESCRIPTION="O aplicativo deve possuir um tempo de suspensão com capacidade de resposta e com uma CPU razoável e uso de E/S de arquivo" EXECUTIONTIME="00h:01m:25s.91ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="19" TITLE="Testes de recursos de manifesto do aplicativo" RATIONALE="O Manifesto do pacote Appx deve ter recursos válidos definidos no arquivo resources.pri, conforme a Especificação do pacote de Appx e o Esquema de manifesto de Appx.">
+      <TEST INDEX="45" NAME="Validação de recursos do aplicativo" DESCRIPTION="O pacote deve possuir recursos válidos definidos no arquivo resources.pri." EXECUTIONTIME="00h:00m:00s.74ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="61" NAME="Validação de identidade visual" DESCRIPTION="O aplicativo não deve usar imagens padrão armazenadas por amostras do Windows SDK ou Visual Studio." EXECUTIONTIME="00h:00m:03s.11ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="20" TITLE="Teste de configuração de depuração" RATIONALE="O Aplicativo não deve instalar quaisquer binários de depuração.">
+      <TEST INDEX="46" NAME="Configuração de depuração" DESCRIPTION="O Aplicativo não deve instalar quaisquer binários de depuração." EXECUTIONTIME="00h:00m:02s.83ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="21" TITLE="Codificação de arquivo" RATIONALE="Os pacotes que contêm um aplicativo HTML5 da Loja do Windows precisam apresentar a codificação correta do arquivo.">
+      <TEST INDEX="49" NAME="Codificação de arquivo UTF-8" DESCRIPTION="Os pacotes que contêm um aplicativo HTML5 da Loja do Windows precisam apresentar a codificação correta do arquivo." EXECUTIONTIME="00h:00m:01s.59ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="22" TITLE="Suporte no nível do recurso Direct3D" RATIONALE="Os aplicativos devem renderizar o conteúdo no hardware do nível de recurso Direct3D 9.1.">
+      <TEST INDEX="51" NAME="Suporte no nível do recurso Direct3D" DESCRIPTION="Os aplicativos devem renderizar o conteúdo no hardware do nível de recurso Direct3D 9.1." EXECUTIONTIME="00h:00m:00s.95ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="23" TITLE="Teste de recursos do aplicativo" RATIONALE="Pacotes declarando recursos de uso especial precisarão fornecer justificativas durante o processo de integração.">
+      <TEST INDEX="52" NAME="Recursos de uso especial" DESCRIPTION="Pacotes declarando recursos de uso especial precisarão fornecer justificativas durante o processo de integração." EXECUTIONTIME="00h:00m:01s.63ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="24" TITLE="Validação de metadados do Tempo de Execução do Windows" RATIONALE="Os metadados precisam estar de acordo e consistentes em todas as origens de geração.">
+      <TEST INDEX="56" NAME="Teste do atributo ExclusiveTo" DESCRIPTION="Uma classe não deve implementar uma interface que esteja marcada como ExclusiveTo para outra classe." EXECUTIONTIME="00h:00m:01s.20ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="57" NAME="Teste de localização de tipo" DESCRIPTION="Os tipos devem ser definidos no arquivo de metadados com o maior namespace correspondente." EXECUTIONTIME="00h:00m:00s.75ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="55" NAME="Teste de diferenciação de maiúsculas e minúsculas de nome de tipo" DESCRIPTION="Namespace e nomes de tipo não devem variar apenas por maiúsculas e minúsculas." EXECUTIONTIME="00h:00m:00s.65ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="54" NAME="Teste de correção do nome do tipo" DESCRIPTION="Somente tipos de sistema podem estar no namespace do Windows e nenhum tipo pode estar no namespace global." EXECUTIONTIME="00h:00m:00s.66ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="58" NAME="Teste de correção de metadados gerais" DESCRIPTION="Os arquivos de metadados devem cumprir vários requisitos para serem válidos e corretos." EXECUTIONTIME="00h:00m:01s.80ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="53" NAME="Teste de propriedades" DESCRIPTION="As propriedades e o indexador somente gravação não podem ser usados. Os métodos getter e setter correspondentes devem corresponder em tipo." EXECUTIONTIME="00h:00m:00s.65ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+  </REQUIREMENTS>
+  <APPLICATIONS>
+    <Installed_Programs>
+      <Program Name="8228BrenoPolanski.TictactoePaper" Type="Application" Source="AppxPackage" Publisher="CN=D1AF1347-E0D7-4CB2-9C97-660500095CD2" Version="1.0.0.1" Language="1033" OnSystemDrive="true" RootDirPath="C:\Program Files\WindowsApps\8228BrenoPolanski.TictactoePaper_1.0.0.1_neutral__k2ma5phfhkcvw" PathEvidenceId="0x1d6a" RNP="0x1" DNP="0xd" EvidenceId="0x1d6a" Id="0000494e30aefd38c7da4812b472faa2d29000000904">
+        <Indicators>
+          <DirectoryIndicators>
+            <Directory Name="js" Path="c:\program files\windowsapps\8228brenopolanski.tictactoepaper_1.0.0.1_neutral__k2ma5phfhkcvw\js" RNP="0x9" DNP="0xb" UniqueId="0x1d6f" Id="0000ed830a2cad918e620bb3cae846c3985ea8ddae26" />
+            <Directory Name="about" Path="c:\program files\windowsapps\8228brenopolanski.tictactoepaper_1.0.0.1_neutral__k2ma5phfhkcvw\pages\about" RNP="0x9" DNP="0xb" UniqueId="0x1d76" Id="000095a89a47482232b8213a02fc7ed3162546ee0da4" />
+            <Directory Name="pages" Path="c:\program files\windowsapps\8228brenopolanski.tictactoepaper_1.0.0.1_neutral__k2ma5phfhkcvw\pages" RNP="0x9" DNP="0xb" UniqueId="0x1d75" Id="000019ff601290dc13568ff4c70ea07fd47a73f13ab3" />
+            <Directory Name="privacy" Path="c:\program files\windowsapps\8228brenopolanski.tictactoepaper_1.0.0.1_neutral__k2ma5phfhkcvw\pages\privacy" RNP="0x9" DNP="0xb" UniqueId="0x1d79" Id="00008d3ed568bf181aa920a535ac45d7d18e4025082e" />
+            <Directory Name="8228brenopolanski.tictactoepaper_1.0.0.1_neutral__k2ma5phfhkcvw" Path="c:\program files\windowsapps\8228brenopolanski.tictactoepaper_1.0.0.1_neutral__k2ma5phfhkcvw" RNP="0x9" DNP="0xb" UniqueId="0x1d6b" Id="0000635553ab84d3810f0171e59be61ba06b72ea6892" />
+          </DirectoryIndicators>
+          <PackageManifestIndicator>
+            <PackageManifest PackageFullName="8228brenopolanski.tictactoepaper_1.0.0.1_neutral__k2ma5phfhkcvw" />
+            <Identity Name="8228BrenoPolanski.TictactoePaper" Version="1.0.0.1" Publisher="CN=D1AF1347-E0D7-4CB2-9C97-660500095CD2" ProcessorArchitecture="neutral" />
+            <Dependencies>
+              <PackageDependency Name="Microsoft.WinJS.1.0" MinVersion="1.0.9200.20602" />
+            </Dependencies>
+            <Properties>
+              <DisplayName>Tic tac toe Paper</DisplayName>
+              <PublisherDisplayName>Breno Polanski</PublisherDisplayName>
+              <Logo>images\storelogo.png</Logo>
+            </Properties>
+            <Resources>
+              <Resource Language="EN-US" />
+            </Resources>
+            <Prerequisites>
+              <OSMinVersion>6.2.1</OSMinVersion>
+              <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+            </Prerequisites>
+          </PackageManifestIndicator>
+        </Indicators>
+        <StaticProperties>
+          <Files Id="0000dcde8f7478edffd58c6b7780f6ab8d7b95ac2b3e">
+            <File Name="about.html" Id="0000105535561d0cfe18962769f8782345b1eb66e9ce" ShortName="ABOUT~1.HTM" Size="0x606" BinaryType="UNKNOWN" Created="04/23/2013 04:07:44" Modified="04/23/2013 04:07:44" Path="c:\program files\windowsapps\8228brenopolanski.tictactoepaper_1.0.0.1_neutral__k2ma5phfhkcvw\pages\about" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\8228brenopolanski.tictactoepaper_1.0.0.1_neutral__k2ma5phfhkcvw\pages\about\about.html" LongPathHash="0000c617639c31ae03bb79a2af23ba36a572aff43b1a" UniqueId="0x1d77" />
+            <File Name="game.js" Id="00006cfe952932457a92b8d734df066a167e3b32eeb1" Size="0xf29" BinaryType="UNKNOWN" Created="04/23/2013 04:07:44" Modified="04/23/2013 04:07:44" Path="c:\program files\windowsapps\8228brenopolanski.tictactoepaper_1.0.0.1_neutral__k2ma5phfhkcvw\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\8228brenopolanski.tictactoepaper_1.0.0.1_neutral__k2ma5phfhkcvw\js\game.js" LongPathHash="000056cffb1476b60097943e8f8534d0d1cced7aecdb" UniqueId="0x1d71" />
+            <File Name="default.html" Id="0000f021b5e993078d9b8b526bfda03678a89934aa16" ShortName="DEFAUL~1.HTM" Size="0x7a7" BinaryType="UNKNOWN" Created="04/23/2013 04:07:44" Modified="04/23/2013 04:07:44" Path="c:\program files\windowsapps\8228brenopolanski.tictactoepaper_1.0.0.1_neutral__k2ma5phfhkcvw" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\8228brenopolanski.tictactoepaper_1.0.0.1_neutral__k2ma5phfhkcvw\default.html" LongPathHash="0000379707e23c97a3c366c6ecd669efccb8b2c10740" UniqueId="0x1d6c" />
+            <File Name="jquery.min.js" Id="00009921559861e418ed537b25455a0a3e3a5f14a2fd" ShortName="JQUERY~1.JS" Size="0x18868" BinaryType="UNKNOWN" Created="04/23/2013 04:07:44" Modified="04/23/2013 04:07:44" Path="c:\program files\windowsapps\8228brenopolanski.tictactoepaper_1.0.0.1_neutral__k2ma5phfhkcvw\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\8228brenopolanski.tictactoepaper_1.0.0.1_neutral__k2ma5phfhkcvw\js\jquery.min.js" LongPathHash="0000e154d5585517653b273297575dd353b4b97ca04d" UniqueId="0x1d72" />
+            <File Name="default.js" Id="00007bac1f3f745ab6e013ffdfcf5498eefd1007c207" Size="0x1134" BinaryType="UNKNOWN" Created="04/23/2013 04:07:44" Modified="04/23/2013 04:07:44" Path="c:\program files\windowsapps\8228brenopolanski.tictactoepaper_1.0.0.1_neutral__k2ma5phfhkcvw\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\8228brenopolanski.tictactoepaper_1.0.0.1_neutral__k2ma5phfhkcvw\js\default.js" LongPathHash="0000d92d03a46882ec6dc912c8233d34bd963d85e124" UniqueId="0x1d70" />
+            <File Name="about.js" Id="0000284ba3a0c8cbd063186776620f9af578ecdd82e3" Size="0x326" BinaryType="UNKNOWN" Created="04/23/2013 04:07:44" Modified="04/23/2013 04:07:44" Path="c:\program files\windowsapps\8228brenopolanski.tictactoepaper_1.0.0.1_neutral__k2ma5phfhkcvw\pages\about" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\8228brenopolanski.tictactoepaper_1.0.0.1_neutral__k2ma5phfhkcvw\pages\about\about.js" LongPathHash="0000b5edd40f9217dbc0206b369029bbeba65f5ee6ca" UniqueId="0x1d78" />
+            <File Name="privacy.html" Id="0000eb6bd9fac29ec351cb1036c23887bd8ab73708b4" ShortName="PRIVAC~1.HTM" Size="0x48f" BinaryType="UNKNOWN" Created="04/23/2013 04:07:44" Modified="04/23/2013 04:07:44" Path="c:\program files\windowsapps\8228brenopolanski.tictactoepaper_1.0.0.1_neutral__k2ma5phfhkcvw\pages\privacy" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\8228brenopolanski.tictactoepaper_1.0.0.1_neutral__k2ma5phfhkcvw\pages\privacy\privacy.html" LongPathHash="000034613a9e45a657e6da5e9a72f944f7f69a2e0146" UniqueId="0x1d7a" />
+            <File Name="privacy.js" Id="0000adf4d85718458a36def2818e473db0389ba5d183" Size="0x32a" BinaryType="UNKNOWN" Created="04/23/2013 04:07:44" Modified="04/23/2013 04:07:44" Path="c:\program files\windowsapps\8228brenopolanski.tictactoepaper_1.0.0.1_neutral__k2ma5phfhkcvw\pages\privacy" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\8228brenopolanski.tictactoepaper_1.0.0.1_neutral__k2ma5phfhkcvw\pages\privacy\privacy.js" LongPathHash="0000267019df6236cb07e6c877b0696d03b72d338288" UniqueId="0x1d7b" />
+          </Files>
+        </StaticProperties>
+      </Program>
+    </Installed_Programs>
+  </APPLICATIONS>
+  <DEPENDENCY_INFORMATION>
+    <AitStaticAnalysis ProgramId="0000494e30aefd38c7da4812b472faa2d29000000904" AnalysisVersion="1.54" DictionaryVersion="1.6" Type="Package" Id="8228BrenoPolanski.TictactoePaper_1.0.0.1_neutral__k2ma5phfhkcvw">
+      <AitFile ErrorCode="0" Name="about.html" Id="0000105535561d0cfe18962769f8782345b1eb66e9ce">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS" />
+          <AitFeature Name="WinJS.1.0" />
+          <AitFeature Name="WinJS.UI.SettingsFlyout" />
+          <AitFeature Name="WinJS.UI.SettingsFlyout.show" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="about.js" Id="0000284ba3a0c8cbd063186776620f9af578ecdd82e3">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.UI.Pages.define" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="game.js" Id="00006cfe952932457a92b8d734df066a167e3b32eeb1" />
+      <AitFile ErrorCode="0" Name="default.js" Id="00007bac1f3f745ab6e013ffdfcf5498eefd1007c207">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Application" />
+          <AitFeature Name="WinJS.Application.sessionState" />
+          <AitFeature Name="WinJS.Binding.optimizeBindingReferences" />
+          <AitFeature Name="WinJS.UI.SettingsFlyout.populateSettings" />
+          <AitFeature Name="WinJS.UI.processAll" />
+          <AitFeature Name="Windows.ApplicationModel.Activation" />
+          <AitFeature Name="Windows.UI.ViewManagement.ApplicationView.value" />
+          <AitFeature Name="Windows.UI.ViewManagement.ApplicationViewState" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="jquery.min.js" Id="00009921559861e418ed537b25455a0a3e3a5f14a2fd" />
+      <AitFile ErrorCode="0" Name="privacy.js" Id="0000adf4d85718458a36def2818e473db0389ba5d183">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.UI.Pages.define" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="privacy.html" Id="0000eb6bd9fac29ec351cb1036c23887bd8ab73708b4">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS" />
+          <AitFeature Name="WinJS.1.0" />
+          <AitFeature Name="WinJS.UI.SettingsFlyout" />
+          <AitFeature Name="WinJS.UI.SettingsFlyout.show" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="default.html" Id="0000f021b5e993078d9b8b526bfda03678a89934aa16">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS" />
+          <AitFeature Name="WinJS.1.0" />
+        </AitCategory>
+      </AitFile>
+    </AitStaticAnalysis>
+  </DEPENDENCY_INFORMATION>
+</REPORT>

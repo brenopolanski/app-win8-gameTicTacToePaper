@@ -1,0 +1,62 @@
+﻿/*
+ * Description: Style css game Tic Toe
+ * Version: 1.1
+ * Última atualização: 21/04/2013
+ * Author: Breno Polanski
+ */
+
+/* ==========================================================================
+   Game layout
+   ========================================================================== */
+
+* { margin: 0; padding: 0; }
+
+img { border: none; }
+
+#imgSnapped {
+    z-index: -1;
+    position: fixed;
+    margin-top: -50px;
+}
+
+body { 
+  background: url(../images/paper.png) no-repeat fixed; 
+  background-size: cover;
+}
+
+/* Table game Tic Toe
+   ========================================================================== */
+
+table {
+	border-collapse: collapse;
+	background: url(../images/table.png);
+	margin: 150px auto;
+}
+
+td {
+	height: 130px;
+	width: 130px;
+}
+
+/* HUD
+   ========================================================================== */
+
+.smile {
+	position: fixed;
+	top: 105px;
+	padding: 4px 15px 4px 50px;
+	left: 0;
+}
+
+.btn {
+	position: fixed;
+	top: 200px;
+	padding: 4px 50px;
+	right: 0;
+}
+
+/* Images player1 and player2
+   ========================================================================== */
+
+td.player_1 { background: url(../images/players.png) 15px 20px no-repeat; }
+td.player_2 { background: url(../images/players.png) -100px 15px no-repeat; }
