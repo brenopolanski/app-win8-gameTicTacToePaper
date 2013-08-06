@@ -1,4 +1,4 @@
-# App for Windows 8 Classic Game Tic tac toe Paper
+## App for Windows 8 Classic Game Tic tac toe Paper
 
 Classic game tic tac toe for two players (not online). The player who succeeds in placing three respective marks (X and O) in a horizontal, vertical, or diagonal row wins the game.
 
